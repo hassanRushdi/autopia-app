@@ -7,6 +7,9 @@ import Packages from './components/Packages'
 import AdditionalServices from './components/AdditionalServices'
 import BranchSection from './components/BranchSection'
 import BookingInfo from './components/BookingInfo'
+import SummarySection from './components/SummarySection'
+import PaymentSection from './components/PaymentSection'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -20,6 +23,9 @@ function App() {
       <AdditionalServices />
       <BranchSection />
       <BookingInfo />
+      <SummarySection />
+      <PaymentSection />
+      <Footer />
     </main>
   )
 }
