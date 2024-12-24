@@ -3,9 +3,9 @@ import NavBar from './components/NavBar'
 import Header from './components/Header'
 import OfferCard from './components/OfferCard'
 import VehicleGuide from './components/VehicleGuide'
-import SectionHeading from './components/SectionHeading'
 import Packages from './components/Packages'
 import AdditionalServices from './components/AdditionalServices'
+import BranchSection from './components/BranchSection'
 
 function App() {
 
@@ -17,6 +17,7 @@ function App() {
       <VehicleGuide />
       <Packages />
       <AdditionalServices />
+      <BranchSection />
     </main>
   )
 }
