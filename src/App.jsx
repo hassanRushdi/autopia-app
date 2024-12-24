@@ -6,6 +6,7 @@ import VehicleGuide from './components/VehicleGuide'
 import Packages from './components/Packages'
 import AdditionalServices from './components/AdditionalServices'
 import BranchSection from './components/BranchSection'
+import BookingInfo from './components/BookingInfo'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Packages />
       <AdditionalServices />
       <BranchSection />
+      <BookingInfo />
     </main>
   )
 }
