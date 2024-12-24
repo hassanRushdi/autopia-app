@@ -16,7 +16,7 @@ const PackageCard = ({
         <img src={image} alt={title} className="w-full h-full object-cover" />
         {/* Badge */}
         <div className="absolute bottom-3 left-[-2px] bg-black bg-opacity-60 text-sm px-2 py-1 rounded-md">
-          <span>⏱ Business Hours</span>
+          <span>8 Business Hours</span>
         </div>
       </div>
 
