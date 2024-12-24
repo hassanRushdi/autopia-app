@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply box-border list-none p-0 m-0 scroll-smooth;
+  }
+  body {
+    @apply bg-dark-1 text-white font-cairo;
+  }
+}
+
+@layer utilities {
+  /* Typography */
+  .section-heading {
+    @apply text-white text-3xl font-bold
+  }
+  .section-subheading {
+    @apply text-white text-lg
+  }
+  .btn-alt {
+    @apply text-center font-bold bg-transparent border px-10 py-2 rounded-md hover:bg-primary hover:outline-none hover:border-transparent hover:text-dark-1 transition-all ease-in-out
+  }
+  .nav {
+    @apply flex items-center justify-between gap-2 p-3 my-3;
+  }
+  .nav-item {
+    @apply text-white font-bold hover:text-primary ease-in-out transition-all;
+  }
+}
