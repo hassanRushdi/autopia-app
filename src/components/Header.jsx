@@ -1,3 +1,4 @@
+import { Phone } from "lucide-react";
 import logo from "../assets/logo.png";
 const Header = () => {
   return (
@@ -6,13 +7,15 @@ const Header = () => {
         {/* Logo */}
         <div>
           <a href="/">
-          <img src={logo} alt="logo" className="w-[200px] h-full" />
+            <img src={logo} alt="logo" className="w-[200px] h-full" />
           </a>
         </div>
         <div className="text-center">
-          <p>HOTLINE NUMBER</p>
-          {/* Icon */}
-          <p className="text-primary">9200 35 406</p>
+          <div className="flex gap-2">
+            <p>HOTLINE NUMBER</p>
+            <Phone className="text-primary w-5" />
+          </div>
+          <p className="text-primary text-lg">9200 35 406</p>
         </div>
       </div>
     </section>
